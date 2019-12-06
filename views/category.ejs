@@ -1,0 +1,74 @@
+
+<html>
+<head>
+<title>
+atest
+</title>
+<body>
+<p>
+<% ci.forEach(function(ma) { %>
+<li> <%= ma.animal_name %> --- <%=ma.animal_id %> --- <%= ma.category_name %> --- <%=ma.sub_category_name %> </li>
+<% }); %>
+<br>
+</p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <% include partials/header %>
+<div class="mlp__header">
+<div class="heading-underlined">
+<h1 class="heading-underlined__heading mt_heading--h4--2">
+<p class="p1"><b> <%= ci.sub_category_name %></b></p>
+<hr align="center" height="10px" width="250px" color="brown" height="15px">
+</h1>
+<div class="heading-underlined__underline"></div>
+</div>
+</div>
+
+<div class="container">
+  <section class="body container responsive">
+
+
+    <div class="row">
+
+<% ci.forEach(function(ma) { %>
+        <div class="col-lg-4">
+            <div class="card mb-3 ">
+                <img src="a1.jpg" alt="Check Pattern" class="card-img-top">
+                 <div class="card-body cb1 ">
+                     <h5 class="card-title ct1"><b><%= ma.animal_id %></b></h5>
+					<p class="card-text"><%= ma.animal_name %></p> 
+                     <a href="/mammals/<%= ma.animal_id %>" class="btn btn-outline-success">See All</a>
+                 </div>
+            </div>
+        </div>
+        <% }); %>
+
+        </div>
+        </section>
+</div>
+ -->
